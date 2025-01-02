@@ -10,7 +10,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_selection import SelectFromModel
